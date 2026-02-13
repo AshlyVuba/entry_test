@@ -49,13 +49,13 @@ npx hardhat
 ## Assessment Structure
 
 ### Part A: MCQ & Theory (`PartA_MCQ_Answers.md`)
-- Answer **ALL** questions for **BOTH** Version 1 and Version 2.
+- Answer **ALL** questions for **BOTH** PART 1 and PART 2.
 - Provide clear reasoning for your choices.
 
 ### Part B: Design & Implementation
 You are provided with two contract skeletons in `contracts/`:
-1. `SkillsMarketplace.sol` (Version 1)
-2. `SecureLottery.sol` (Version 2)
+1. `SkillsMarketplace.sol` (PART 1)
+2. `SecureLottery.sol` (PART 2)
 
 **Your Tasks for BOTH contracts:**
 1. **Implementation:** Complete the `TODO` sections in both `.sol` files.
