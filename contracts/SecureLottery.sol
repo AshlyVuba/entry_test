@@ -13,7 +13,7 @@ contract SecureLottery {
     uint256 public lotteryStartTime;
     bool public isPaused;
     uint256 public tractEntries;
-    uint256[] public playerInformation;
+    mapping(address => string) public playerInformation;
     uint256[] public pot;
     // TODO: Define additional state variables
     // Consider:
