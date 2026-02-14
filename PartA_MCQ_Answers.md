@@ -76,8 +76,7 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 - **C)** "Because smart contracts are more secure than databases and Web3 is decentralised."  
 - **D)** "Blockchain uses cryptography which makes it unhackable, unlike normal databases."  
 
-**Your Answer:** [A/B/C/D] 
-B
+**Your Answer:** [B] 
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  

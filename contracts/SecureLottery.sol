@@ -13,7 +13,7 @@ contract SecureLottery {
     uint256 public lotteryStartTime;
     bool public isPaused;
     uint256 public tractEntries;
-    address public playerInformation;
+    uint256[] public playerInformation;
     uint256[] public pot;
     // TODO: Define additional state variables
     // Consider:
@@ -39,6 +39,7 @@ contract SecureLottery {
     // - Emit event with player address and entry count
     function enter() public payable {
     // while the player still chooses to enter(this will allow them to enter many times)
+    // if the players information is not stored in the playerinformation list I will add it to it
     //if the player pays the minimum amount, I want to add their lotteryId to my pot
         // Your implementation here
         // Validation: Check minimum entry amount
@@ -48,6 +49,8 @@ contract SecureLottery {
     // TODO: Implement winner selection function
     function winner() public {
         //use a loop to go through the pot and choose a random index
+        // fetch information from enter to find out who it was 
+        // return the winners name 
     }
     // Requirements:
     // - Only owner can trigger
@@ -78,11 +81,18 @@ contract SecureLottery {
     }
     
     function pause() public onlyOwner {
-        // Your implementation
+        if (msg.sender == owner){
+            isPaused = true;
+        }
+       // else {
+        //     return "Only the owner can pause" ;
+        // }
     }
     
     function unpause() public onlyOwner {
-        // Your implementation
+        if (msg.sender == owner){
+            isPaused = false;
+        }
     }
     
     // TODO: Implement reentrancy protection
