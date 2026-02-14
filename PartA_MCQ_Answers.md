@@ -29,12 +29,12 @@
 - **C)** Use ERC-721 exclusively, store all data off-chain for gas savings, and require buyers to use MetaMask with manual price negotiations.  
 - **D)** Build everything as separate NFT collections with no DEX integration since farmers won't understand DeFi protocols.  
 
-**Your Answer:** [A/B/C/D]  
+**Your Answer:** [A/B/C/D]
+C
 
 **Your Reasoning:**  
 [2–3 sentences explaining why you chose this answer. What makes it the best choice?]  
-
----
+It checks all the requirements for the platform and I help him save gas by storing data off-chain. I also allow the buyers to negotiate their prices, because as we know even though the produce will be grown on the same farm they may differ.
 
 ### Question 2: Cost Optimisation (Practical Aptitude)
 
@@ -76,11 +76,12 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 - **C)** "Because smart contracts are more secure than databases and Web3 is decentralised."  
 - **D)** "Blockchain uses cryptography which makes it unhackable, unlike normal databases."  
 
-**Your Answer:** [A/B/C/D]  
+**Your Answer:** [A/B/C/D] 
+B
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
-
+Blockchain is decentralised so your data doesn't have to be shared with anyone, meaning that his prices are not influenced by any external party. I learnt that we can own what we publish or choose to publish, it also makes trading easier.
 ---
 
 ## PART 2: DeFi & NFT Integration (Advanced Concepts)
