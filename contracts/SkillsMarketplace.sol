@@ -7,7 +7,9 @@ pragma solidity ^0.8.18;
  * @notice PART 1 - Skills Marketplace (MANDATORY)
  */
 contract SkillsMarketplace {
-    
+    //mapping(string => uint256[]) for the workers and their skills
+    uint256[] public gigInformation;
+
     // TODO: Define your state variables here
     // Consider:
     // - How will you track workers and their skills?

@@ -80,7 +80,7 @@ A farmer asks: *"Why can't we just use a normal website with a database?"*
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
-Blockchain creates a secure, members-only network, ensuring accurate and timely data access. Confidential records are shared only with authorized network members, fostering trust and creating end-to-end visibility across the system. 
+Blockchain creates a secure, members-only network, ensuring accurate and timely data access. Confidential records are shared only with authorized network members, fostering trust and creating end-to-end visibility across the system. I learnt that because of blockchain we are now able to send funds instantly around africa, not the whole of it but that was a start.
 ---
 
 ## PART 2: DeFi & NFT Integration (Advanced Concepts)
@@ -125,4 +125,5 @@ Blockchain creates a secure, members-only network, ensuring accurate and timely 
 
 ---
 
-**Challenges faced:** [What was difficult? Which concepts are you less confident about?]  
+**Challenges faced:** [What was difficult? Which concepts are you less confident about?] 
+Honestly I feel like everything was difficullt, I studied Basics and Definitions and while they make it easier to understand the questions, they weren't in depth enough for this exam. I know what Defi means but I didn't get to the formulas, I know what tokens are and what they do but I didn't know about the different types. Even my code based examples were basic, everything I did learn is already on the code.  
