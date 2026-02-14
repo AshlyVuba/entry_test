@@ -9,6 +9,7 @@ pragma solidity ^0.8.18;
 contract SkillsMarketplace {
     //mapping(string => uint256[]) for the workers and their skills
     uint256[] public gigInformation;
+    //mapping(id/address => amount) for manage payments
 
     // TODO: Define your state variables here
     // Consider:
@@ -29,6 +30,9 @@ contract SkillsMarketplace {
     // - Emit an event when a worker registers
     function registerWorker(string memory skill) public {
         // Your implementation here
+        // first check if the worker exists in my workers map
+        //
+
     }
     
     // TODO: Implement postGig function

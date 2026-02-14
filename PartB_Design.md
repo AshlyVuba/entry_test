@@ -14,7 +14,7 @@
 - How did you structure your state variables in `SkillsMarketplace` vs `SecureLottery`?
 - What trade-offs did you consider for storage efficiency?
 
-[Write your response here]
+[I chose mapping when my variable is associated with more than one piece of information because it allows for keys and values. I used array when the variable is associated with just one piece of information, for example the pot, I just needed to store the lotterid in there in SecureLottery, whereas in SkillsMartketplace, with the worker information I need to know who it is so a name or an Id and their skill]
 
 ---
 
@@ -25,7 +25,7 @@
 - Integer overflow/underflow?
 - Front-running/Randomness manipulation (specifically for `SecureLottery`)?
 
-[Write your response here]
+[I have nothing to say, I didn't even touch that section of the code.]
 
 ---
 
