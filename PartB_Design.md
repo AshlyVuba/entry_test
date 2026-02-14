@@ -83,7 +83,9 @@
 
 [List 3-5 resources you used]
 
----
+1. https://solidity-by-example.org/loop/
+2. https://www.ibm.com/think/topics/blockchain
+3. https://www.alchemy.com/docs/solidity-basics
 
 ### Challenges Faced
 
@@ -93,7 +95,7 @@
 - What you learned
 
 [Write down your challenges]
-
+Everything was challanging, I don't think understanding will be too hard as the code is readable, I just don't know when to do what. For example storing my user information I know that should be an array, because a lot goes into it but I am not sure how to write it in code. I learnt that although studying through quizes may be helpful at times, code based examples matter too.
 ---
 
 ### What I'd Learn Next
@@ -104,5 +106,5 @@
 - Frontend integration
 
 [Write your future learning goals]
-
+I would like to learn everything, from the beginning, I just went through the basics which were not enough preparation for this test. 
 ---

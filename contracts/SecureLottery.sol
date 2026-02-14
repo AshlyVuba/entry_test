@@ -12,7 +12,9 @@ contract SecureLottery {
     uint256 public lotteryId;
     uint256 public lotteryStartTime;
     bool public isPaused;
-    
+    uint256 public tractEntries;
+    address public playerInformation;
+    uint256[] public pot;
     // TODO: Define additional state variables
     // Consider:
     // - How will you track entries?
@@ -24,6 +26,9 @@ contract SecureLottery {
         lotteryId = 1;
         lotteryStartTime = block.timestamp;
         isPaused = false;
+        tractEntries = 1;
+        //playerInformation = DefualtAdress;
+        //pot = []; not sure how to set it up but I know it has to be an array
     }
     
     // TODO: Implement entry function
@@ -33,12 +38,17 @@ contract SecureLottery {
     // - Allow multiple entries per player
     // - Emit event with player address and entry count
     function enter() public payable {
+    // while the player still chooses to enter(this will allow them to enter many times)
+    //if the player pays the minimum amount, I want to add their lotteryId to my pot
         // Your implementation here
         // Validation: Check minimum entry amount
         // Validation: Check if lottery is active
     }
     
     // TODO: Implement winner selection function
+    function winner() public {
+        //use a loop to go through the pot and choose a random index
+    }
     // Requirements:
     // - Only owner can trigger
     // - Select winner from TOTAL entries (not unique players)

@@ -81,7 +81,7 @@ B
 
 **Your Explanation:**  
 [2–3 sentences explaining what makes this answer correct. What did you learn about why blockchain matters in Africa?]  
-Blockchain is decentralised so your data doesn't have to be shared with anyone, meaning that his prices are not influenced by any external party. I learnt that we can own what we publish or choose to publish, it also makes trading easier.
+Blockchain creates a secure, members-only network, ensuring accurate and timely data access. Confidential records are shared only with authorized network members, fostering trust and creating end-to-end visibility across the system. 
 ---
 
 ## PART 2: DeFi & NFT Integration (Advanced Concepts)
